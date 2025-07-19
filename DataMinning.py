@@ -1,7 +1,7 @@
 import tweepy
 import pandas as pd
 
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAMqG3AEAAAAAGTikFhXSeGjxVmanUXhiuBlSEkQ%3DLhSKXzk2qPwKXa3fYwzppyKIY6XwFtifmk6Go1XchmSDLC5PQx'
+bearer_token = 'Token here'
 
 client = tweepy.Client(bearer_token, wait_on_rate_limit=True)
 
